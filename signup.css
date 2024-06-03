@@ -1,0 +1,72 @@
+body{
+    background-image: url(DSC_0058_1.JPG);
+    background-size: cover;
+    font-family: sans-serif;
+
+}
+.loginbox{
+   
+    width: 380px;
+    margin: 31px auto;
+    height: 510px;
+    background:white;
+    border-bottom: 1px solid #fff;
+    color:black;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    position: absolute;
+    box-sizing: border-box;
+    padding: 70px 30px;
+    border-radius: 10px;
+}
+.loginbox  p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    font-size: 15px;
+    font-style: normal;
+    color:black;
+}
+.loginbox h1{
+    margin: 0 0 20px 0;
+    font-weight: 300;
+    font-size: 30px;
+    font-style: initial;
+    font-weight: bold;
+    color: black;
+}
+.loginbox input{
+    width: 70%;
+    margin-bottom: 20px;
+}
+
+ .loginbox input[type="text"], input[type="password"]{
+
+  border: none;
+  border-bottom: 1px solid grey;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color:black;
+  font-size: 16px;
+ }   
+
+.loginbox  input[type="submit"]{
+    
+    border: none;
+    width: 100%;
+    outline: none;
+    height: 40px;
+    background: #fb2525;
+    color: #fff;
+    font-size: 18px;
+     border-radius: 10px;
+
+}
+
+input[type="submit"]:hover,
+input[type="submit"]:focus{
+    background: orange;
+    transition: 0.2s ease;
+}
